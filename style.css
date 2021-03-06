@@ -7,10 +7,6 @@
 	padding: 30px;
 }
 
-.titulo-principal {
-	padding-left: 20px;
-}
-
 .titulo-centralizado {
 	text-align: center
 }
@@ -36,7 +32,7 @@ em strong {
 	padding: 20px;
 }
 
-ul {
+#lista-beneficios {
 	display: inline-block;
 	vertical-align: top;
 	width: 20%;
@@ -46,3 +42,34 @@ ul {
 .imagembeneficios {
 	width: 50%;
 }
+
+header {
+	background-color: gray;	
+}
+nav {
+	position: absolute;
+	right: 0;
+	top:50%
+}
+
+.caixa-header {
+	width: 940px;
+	position: relative;
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+nav li{
+	display: inline;
+	margin: 0 0 0 15px;
+}
+
+nav a {
+	text-transform: uppercase;
+	color: #000000;
+	font-weight: bold;
+	text-decoration:none;
+	font-size: 22px;
+}
+

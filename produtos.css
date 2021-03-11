@@ -30,11 +30,10 @@ nav a {
     
 }
 .produtos {
-	position: relative;
 	width: 940px;
 	margin: 0 auto;
 	margin-top: 15px;
-	box-sizing: border-box;
+	
 }
 .produtos h2 {
 	font-size: 30px;
@@ -49,12 +48,16 @@ nav a {
 	border-width: 3px;
 	border-radius: 30px;
 	width: 30%;
+	margin: 0 0.5%;
+	padding: 30px 20px;
+	box-sizing: border-box;
+	
+}
+.produto-descrição {
+	font-size: 18px;
 }
 
 .produto-preço {
 	font-weight:bold; 
 	font-size: 22px;
-}
-.produto-descrição {
-	font-size: 18px;
 }

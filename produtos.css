@@ -29,3 +29,32 @@ nav a {
 	font-size: 22px;
     
 }
+.produtos {
+	position: relative;
+	width: 940px;
+	margin: 0 auto;
+	margin-top: 15px;
+	box-sizing: border-box;
+}
+.produtos h2 {
+	font-size: 30px;
+	font-weight: bold;
+}
+.produtos li{
+	text-align: center;
+	display: inline-block;
+	vertical-align: top;
+	border-style: solid;
+	border-color: grey;
+	border-width: 3px;
+	border-radius: 30px;
+	width: 30%;
+}
+
+.produto-preço {
+	font-weight:bold; 
+	font-size: 22px;
+}
+.produto-descrição {
+	font-size: 18px;
+}

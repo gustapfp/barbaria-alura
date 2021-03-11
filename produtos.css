@@ -29,15 +29,28 @@ nav a {
 	font-size: 22px;
     
 }
+nav a:active {
+	color:red;
+
+}
+nav a:hover {
+	color: white;
+	text-decoration: underline;
+}
 .produtos {
 	width: 940px;
 	margin: 0 auto;
-	margin-top: 15px;
+	margin-top: 5%;
+	margin-bottom: 5%;
 	
 }
 .produtos h2 {
 	font-size: 30px;
 	font-weight: bold;
+}
+
+.produtos li:hover h2{
+	font-size: 40px;
 }
 .produtos li{
 	text-align: center;
@@ -53,6 +66,15 @@ nav a {
 	box-sizing: border-box;
 	
 }
+
+.produtos li:hover {
+	border-color: yellow;
+}
+
+.produtos li:active {
+	border-color: green;
+}
+
 .produto-descrição {
 	font-size: 18px;
 }
@@ -60,4 +82,18 @@ nav a {
 .produto-preço {
 	font-weight:bold; 
 	font-size: 22px;
+}
+
+footer {
+	text-align: center;
+	background: url("bg.jpg");
+}
+footer img {
+	padding: 3%;
+}
+
+.copyright {
+	color: white;
+	padding-bottom: 3%;
+
 }

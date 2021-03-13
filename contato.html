@@ -11,7 +11,7 @@
 <body>
     <header>
         <div class="caixa-header">
-            <h1><img id="imagem-logo" src="logo.png"></h1>
+            <h1><img id="imagem-logo" src="logo.png" alt="Logo Barbearia Alura"></h1>
             <nav> 
                 <ul>
                     <li><a href="index.html">Home</a></li>
@@ -21,9 +21,63 @@
             </nav>
         </div>
     </header>
+    <main>
+        <form>
+            <fieldset id="dados-cliente">
+                <label>
+                    Nome completo:
+                    <input type="text" placeholder="Nome Sobrenome" required>
+                </label>
+                <label>
+                    Email:
+                    <input type="email" placeholder="email@email.com"required>
+                </label>
+                <label>
+                    Telefone:
+                    <input type="tel" placeholder="(DDD) XXXX-XXXX" required>
+                </label>
+
+                <label>
+                    Quer acrescentar algo?
+                    <textarea rows="15" cols="40"></textarea>
+
+                </label>
+            </fieldset>
+            <fieldset id="tipo-de-corte">
+                <label>
+                    Cabelo
+                    <input type="radio" name="tipo-de-corte">
+                </label>
+                <label>
+                    Barba
+                    <input type="radio" name="tipo-de-corte">
+                </label>
+                <label>
+                    Cabelo e Barba
+                    <input type="radio" name="tipo-de-corte">
+                </label>
+            </fieldset>
+            <fieldset id="data-do-corte">
+                <legend>Nosso Atendimento é por ordem de chegada, porém você tem prioridade se marcar aqui o periodo que deseja ser atendido:</legend>
+                <select>
+                    <option name="periodo">Manhã</option>
+                    <option name="periodo">Tarde</option>
+                    <option name="periodo">Noite</option>
+                </select>
+                <label>
+                    Dia do Atendimento
+                    <input type="date" required>
+                </label>
+            </fieldset>
+            <label>
+                <input type="submit" value="Agendar Atendimento">
+            </label>
+
+        </form>
+    </main>
 
     <footer>
-        <img src="logo-branco.png">
+        <img src="logo-branco.png" alt="Logo Barbearia Alura">
         <p class="copyright">&copy; Copyright Barbearia Alura - 2021</p>
     </footer>
 </body>

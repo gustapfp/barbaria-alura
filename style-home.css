@@ -80,7 +80,19 @@ nav a:hover {
 	text-decoration: underline;
 }
 nav a:active {
-	color:red;
+	color:darkgreen;
 
 }
+footer {
+	text-align: center;
+	background: url("bg.jpg");
+}
+footer img {
+	padding: 3%;
+}
 
+.copyright {
+	color: white;
+	padding-bottom: 3%;
+
+}

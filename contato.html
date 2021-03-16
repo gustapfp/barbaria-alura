@@ -22,58 +22,69 @@
         </div>
     </header>
     <main>
-        <form>
+        <form id="contato">
             <fieldset id="dados-cliente">
-                <label>
-                    Nome completo:
-                    <input type="text" placeholder="Nome Sobrenome" required>
+                <label for="nome-completo">
+                    <legend>Nome completo:</legend>
+                    <input type="text" class="input-form-principal" placeholder="Nome Sobrenome" id="nome-completo" required>
                 </label>
-                <label>
-                    Email:
-                    <input type="email" placeholder="email@email.com"required>
+                <label for="email-campo">
+                    <legend>Email:</legend>
+                    <input type="email" id="email-campo" class="input-form-principal" placeholder="email@email.com"required>
                 </label>
-                <label>
-                    Telefone:
-                    <input type="tel" placeholder="(DDD) XXXX-XXXX" required>
+                <label for="telefone" >
+                    <legend>Telefone:</legend>
+                    <input type="tel"  id="telefone" class="input-form-principal" placeholder="(DDD) XXXX-XXXX" required>
                 </label>
 
-                <label>
-                    Quer acrescentar algo?
-                    <textarea rows="15" cols="40"></textarea>
+                <label for="acrescentar">
+                    <legend>Quer acrescentar algo?</legend>
+                    <textarea rows="20" cols="50" id="acrescentar" class="input-form-principal"></textarea>
 
                 </label>
             </fieldset>
             <fieldset id="tipo-de-corte">
-                <label>
+                <label for="corte-cabelo" class="corte-escohido">
+                    <Legend>Qual será o tipo de corte?</Legend>
+                    <input id="corte-cabelo"type="radio" name="tipo-de-corte">
                     Cabelo
-                    <input type="radio" name="tipo-de-corte">
                 </label>
-                <label>
+                <label for="corte-barba" class="corte-escohido">
+                    <input id="corte-cabelo" type="radio" name="tipo-de-corte">
                     Barba
-                    <input type="radio" name="tipo-de-corte">
                 </label>
-                <label>
+                <label for="corte-e-barba"class="corte-escohido">
+                    <input id="corte-e-barba" type="radio" name="tipo-de-corte">
                     Cabelo e Barba
-                    <input type="radio" name="tipo-de-corte">
                 </label>
             </fieldset>
             <fieldset id="data-do-corte">
-                <legend>Nosso Atendimento é por ordem de chegada, porém você tem prioridade se marcar aqui o periodo que deseja ser atendido:</legend>
-                <select>
-                    <option name="periodo">Manhã</option>
-                    <option name="periodo">Tarde</option>
-                    <option name="periodo">Noite</option>
-                </select>
+                <label> 
+                    <legend>Nosso Atendimento é por ordem de chegada, porém você tem prioridade se marcar aqui o periodo que deseja ser atendido:</legend>
+                    <select>
+                        <option name="periodo">Manhã</option>
+                        <option name="periodo">Tarde</option>
+                        <option name="periodo">Noite</option>
+                    </select>
+                </label>
                 <label>
                     Dia do Atendimento
                     <input type="date" required>
                 </label>
             </fieldset>
-            <label>
-                <input type="submit" value="Agendar Atendimento">
-            </label>
+            <fieldset id="email-mkt">
+                <label  class="checkbox" for="checkbox-mkt">
+                    <input id="checkbox-mkt" type="checkbox">
+                    Gostaria de receber novidades por email?
+                </label>
 
+            </fieldset>
+            <label for="enviar">
+                <input class="agendar-atendimento" id="enviar" type="submit" value="Agendar Atendimento">
+            </label>
         </form>
+        
+        
     </main>
 
     <footer>

@@ -44,7 +44,7 @@ em strong {
 }
 
 header {
-	background-color: gray;	
+	background-color: darkgreen;	
 }
 nav {
 	position: absolute;
@@ -69,7 +69,7 @@ nav li{
 
 nav a {
 	text-transform: uppercase;
-	color: #000000;
+	color:white;
 	font-weight: bold;
 	text-decoration:none;
 	font-size: 22px;

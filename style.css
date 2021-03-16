@@ -1,5 +1,5 @@
 header {
-    background-color: gray;
+    background-color: darkgreen;
 	padding: 20px 0;
 }
 
@@ -24,7 +24,7 @@ nav li{
 
 nav a {
 	text-transform: uppercase;
-	color: #000000;
+	color: white;
 	font-weight: bold;
 	text-decoration:none;
 	font-size: 22px;
@@ -55,7 +55,7 @@ nav a:hover {
 	display: inline-block;
 	vertical-align: top;
 	border-style: solid;
-	border-color: grey;
+	border-color: darkgreen;
 	border-width: 3px;
 	border-radius: 10px;
 	width: 30%;
@@ -70,7 +70,7 @@ nav a:hover {
 }
 
 .produtos li:active {
-	border-color: green;
+	border-color: greenyellow;
 }
 
 .produto-descrição {
@@ -144,9 +144,7 @@ form label, form legend {
 
 }
 .agendar-atendimento:hover {
-	transform: scale(1.2);
-	
-	
+	transform: scale(1.2)	
 
 }
 
@@ -166,6 +164,7 @@ table thead {
 table td, th {
 	padding: 8px 15px;
 	border: 1px solid #000000;
+	
 
 
 }

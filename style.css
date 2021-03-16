@@ -139,13 +139,33 @@ form label, form legend {
 	border: none;
 	font-weight: bold;
 	cursor: pointer;
+	margin: 20px 0;
 
 
 }
 .agendar-atendimento:hover {
-	transition: rotate(70deg);
+	transform: scale(1.2);
+	
 	
 
 }
 
 
+table {
+	background-color: green;
+	margin: 20px;
+	color:snow;
+}
+table thead {
+	background-color: darkgreen;
+	padding: 8px 15px;
+	border: 1px solid #000000;
+
+
+}
+table td, th {
+	padding: 8px 15px;
+	border: 1px solid #000000;
+
+
+}

@@ -1,3 +1,8 @@
+#body {
+	font-family: 'Montserrat', sans-serif;
+	background-color: gray;
+}
+
 header {
     background-color: darkgreen;
 	padding: 20px 0;
@@ -35,6 +40,44 @@ nav a:hover {
 	color: white;
 	text-decoration: underline;
 }
+/* Página index.html */
+
+.banner {
+	width: 100%;
+}
+
+.principal {
+	text-align: center;
+	margin: 2em;
+}
+
+.principal p{
+	padding: 5px;
+}
+.titulo-principal {
+	font-size: 1.8em;
+	padding: 1.2em;
+}
+p strong {
+	font-weight: bold;
+}
+
+.nosso-estabelicimento {
+	text-align: center;
+	padding: 1.2em;
+}
+
+
+.nosso-estabelicimento h2 {
+	font-size: 1.8em;
+	margin: 1.2em;
+}
+
+.nosso-estabelicimento iframe {
+	margin: 1.2em;
+
+}
+/* Página Produtos.html */
 .produtos {
 	width: 940px;
 	margin: 0 auto;
@@ -101,7 +144,7 @@ nav a:active {
 }
 
 /*Página de Contato*/
- main { 
+ .main-contato { 
 	width: 940px;
 	margin: 0 auto;
 	margin-top: 40px;
@@ -144,7 +187,7 @@ form label, form legend {
 
 }
 .agendar-atendimento:hover {
-	transform: scale(1.2)	
+	transform: scale(1.2);	
 
 }
 
@@ -159,12 +202,8 @@ table thead {
 	padding: 8px 15px;
 	border: 1px solid #000000;
 
-
 }
 table td, th {
 	padding: 8px 15px;
 	border: 1px solid #000000;
-	
-
-
 }

@@ -77,6 +77,14 @@ p strong {
 	margin: 1.2em;
 
 }
+
+.beneficios {
+	text-align: center;
+}
+
+.beneficios iframe {
+	margin: 1.2em;
+}
 /* Página Produtos.html */
 .produtos {
 	width: 940px;

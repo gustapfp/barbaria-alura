@@ -1,6 +1,7 @@
 #body {
 	font-family: 'Montserrat', sans-serif;
-	background-color: gray;
+	background: linear-gradient(white, white, black);
+
 }
 
 header {
@@ -13,6 +14,7 @@ nav {
 	right: 0;
 	top:50%
 }
+
 
 .caixa-header, form {
 	width: 940px;
@@ -40,51 +42,7 @@ nav a:hover {
 	color: white;
 	text-decoration: underline;
 }
-/* Página index.html */
 
-.banner {
-	width: 100%;
-}
-
-.principal {
-	text-align: center;
-	margin: 2em;
-}
-
-.principal p{
-	padding: 5px;
-}
-.titulo-principal {
-	font-size: 1.8em;
-	padding: 1.2em;
-}
-p strong {
-	font-weight: bold;
-}
-
-.nosso-estabelicimento {
-	text-align: center;
-	padding: 1.2em;
-}
-
-
-.nosso-estabelicimento h2 {
-	font-size: 1.8em;
-	margin: 1.2em;
-}
-
-.nosso-estabelicimento iframe {
-	margin: 1.2em;
-
-}
-
-.beneficios {
-	text-align: center;
-}
-
-.beneficios iframe {
-	margin: 1.2em;
-}
 /* Página Produtos.html */
 .produtos {
 	width: 940px;
@@ -92,6 +50,7 @@ p strong {
 	margin-top: 5%;
 	margin-bottom: 5%;
 	padding: 50px 0;
+	padding-bottom: 200px;
 }
 .produtos h2 {
 	font-size: 30px;
@@ -152,7 +111,7 @@ nav a:active {
 }
 
 /*Página de Contato*/
- .main-contato { 
+ .main-contato,main { 
 	width: 940px;
 	margin: 0 auto;
 	margin-top: 40px;
@@ -214,4 +173,136 @@ table thead {
 table td, th {
 	padding: 8px 15px;
 	border: 1px solid #000000;
+}
+
+/* Página index.html */
+
+
+
+.banner {
+	width: 100%;
+}
+
+.titulo-principal {
+	text-align: center;
+	font-size: 1.8em;
+	padding: 1.2em;
+	font-weight: bold;
+	clear: left;
+}
+.principal {
+	padding: 3em 0;
+	width: 940px;
+	margin: 0 auto;
+}
+
+.principal p{
+	margin: 0 0 1em;
+	font-size: 1.2em;
+	
+}
+
+p strong {
+	font-weight: bold;
+}
+
+p em {
+	font-style: italic;
+}
+.titulo-principal:before {
+	content:"["
+}
+.titulo-principal:after {
+	content:"]"
+}
+
+.utensilios {
+	float: left;
+	width: 10em;
+	margin-right: 20px;
+	margin-left: 20px;
+}
+
+.nosso-estabelicimento {
+	text-align: center;
+	margin: 0 auto;
+
+}
+
+
+.nosso-estabelicimento h2 {
+	font-size: 1.8em;
+	padding: 1.2em;
+}
+
+.nosso-estabelicimento iframe, p {
+	padding: 1.2em;
+	margin: 1.2em;
+}
+
+.nosso-estabelicimento p { 
+	font-size: 1.2em;
+}
+
+.beneficios {
+	padding: 3em 0;
+}
+
+.lista-beneficios {
+	width: 40%;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.conteudo-beneficios {
+	width: 640px;
+	margin: 0 auto;
+}
+
+.itens {
+	line-height: 1.5;
+}
+
+.itens:first-child {
+	font-weight: bold;
+}
+
+.itens:before {
+	content: "🟊";
+}
+
+.imagem-beneficios {
+	width: 60%;
+	opacity: 1;
+	transition: 400ms;
+	box-shadow: 10px 10px 10px 0 #000000;
+}
+
+
+.imagem-beneficios:hover {
+	opacity: 0.3;
+}
+
+.video-home {
+	width: 560px;
+	margin: 2em auto;
+}
+
+
+@media screen and (max-width: 480px) {
+	.caixa, .principal, .conteudo-beneficios, .mapa-conteudo, .video {
+		width: auto;
+	}
+
+	h1 {
+		text-align: center;
+	}
+
+	nav {
+		position: static;
+	}
+
+	.lista-beneficios, .imagem-beneficios {
+		width: 100%;
+	}
 }
